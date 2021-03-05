@@ -1,7 +1,7 @@
 {
 	"extends": "@tsconfig/node12/tsconfig.json",
 	"compilerOptions": {
-		"baseUrl": "./",
+		"baseUrl": "./src",
 		"lib": [
 			"es2019",
 			"es2020.promise",
@@ -24,6 +24,8 @@
 		"forceConsistentCasingInFileNames": true,
 		"declaration": true,
 		"declarationMap": true,
+		"resolveJsonModule": true,
+		"rootDir": "src",
 		// "target": "es6",
 		// "strict": true,
 		"removeComments": true,

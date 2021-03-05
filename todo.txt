@@ -1,0 +1,12 @@
+ftpgit --downloadAll
+ftpgit --sync
+ftpgit --watch
+ftpgit --test-git
+ftpgit --test-ftp
+
+
+to transpile: 
+npm run tsc
+
+to link and exe:
+npm link
